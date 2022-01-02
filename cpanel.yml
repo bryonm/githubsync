@@ -1,0 +1,10 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home2/mondokwe/githubsync.mondokwebworks.com
+        - /bin/cp githubsync.html $DEPLOYPATH
+        - /bin cp * $DEPLOYPATH
+        - /bin cp /<sub_folder>/* $DEPLOYPATH
+        - /bin/cp -r * $DEPLOYPATH
+        
+        
